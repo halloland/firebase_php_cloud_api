@@ -1,0 +1,7 @@
+{
+    "name": "halloland/localhost",
+    "type": "project",
+    "require": {
+        "google/apiclient": "^2.2"
+    }
+}
