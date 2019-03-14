@@ -4,7 +4,7 @@ require __DIR__ . '/vendor/autoload.php';
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-/*
+
 $client = new Google_Client();
 $client->setAuthConfig('client_secrets.json');
 $client->setAccessType("offline");        // offline access
@@ -13,7 +13,7 @@ $client->addScope(array("https://www.googleapis.com/auth/cloud-platform", "https
 $client->setRedirectUri('http://' . $_SERVER['HTTP_HOST'] . '/index.php');
 print_r($client->fetchAccessTokenWithAssertion());
 
-*/
+
 
 
 
