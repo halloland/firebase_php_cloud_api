@@ -1,5 +1,5 @@
 # Firebase clould FCM API using
-1. Go to [Google API Console](https://console.developers.google.com/) -> Crenedtials. In Service account keys block forward link Service Account Management/Manage service accounts.
+1. Go to [Google API Console](https://console.developers.google.com/) Menu -> IAM and Admin -> Service accounts
 2. Find your service and create key. Don’t forget to choose your project at top:
   ![alt text](doc1.png)
 3. Create key for your service, choose json type.
