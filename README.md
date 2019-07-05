@@ -18,7 +18,7 @@
   $client->setRedirectUri('http://' . $_SERVER['HTTP_HOST'] . '/index.php'); // redirect if need
   print_r($client->fetchAccessTokenWithAssertion()); // print access token or get to variable
 ```
-1. Next we need to send post request to google api fcm. Docs here in tab recent.
+1. Next we need to send post request to google api fcm. Docs [here](https://firebase.google.com/docs/cloud-messaging/send-message) in tab recent.
 2. Make curl request:
 ```
 $url = 'https://fcm.googleapis.com/v1/projects/test-notifications-a0093/messages:send'; //test-notifications-a0093 it’s your app id in firebase project settings
