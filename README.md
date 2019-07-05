@@ -22,26 +22,26 @@
 2. Make curl request:
 ```
 $url = 'https://fcm.googleapis.com/v1/projects/test-notifications-a0093/messages:send'; //test-notifications-a0093 it’s your app id in firebase project settings
-$fields = array (
-'message' => array(
-‘notification' => array(
-'title' => 'test title 123123',
-'body' => 'test body asdasd'
-),
-'data' => array(
-'tab' => "2"
-),
-'android' => array(
-'collapse_key' => 'test',
-'priority' => 'high',
-'notification' => array(
-'sound' => "default",
-'tag' => "new_messages"
-)
-),
-'topic' => 'all'
-)
-);
+$fields = [
+    'message' => [
+        'notification' => [
+            'title' => 'test title 123123',
+            'body' => 'test body asdasd',
+        ],
+        'data' => [
+            'tab' => "2",
+        ],
+        'android' => [
+            'collapse_key' => 'test',
+            'priority' => 'high',
+            'notification' => [
+                'sound' => "default",
+                'tag' => "new_messages",
+            ],
+        ],
+        'topic' => 'all',
+    ],
+];
 $fields = json_encode ( $fields );
 
 $headers = array (
