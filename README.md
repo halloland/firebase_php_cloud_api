@@ -6,7 +6,7 @@
 4. You will need your downloaded conf file in PHP google api client in function setAuthConfig.
 5. Install [Google API Client](https://github.com/googleapis/google-api-php-client).
 
-###PHP code. First we need to get token to use API:
+### PHP code:
   ```
   $client = new Google_Client();
   $client->setAuthConfig('client_secrets.json');
